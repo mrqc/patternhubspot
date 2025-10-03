@@ -7,6 +7,8 @@ for subdir, dirs, files in os.walk(root_dir):
     if len(files) == 1:
         old_file = os.path.join(subdir, files[0])
         new_file = os.path.join(subdir, "index.md")
+        if ".git" in old_file:
+             continue
         if files[0] != "index.md":
             print(f"Renaming {old_file} -> {new_file}")
             os.rename(old_file, new_file)

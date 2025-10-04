@@ -14,7 +14,7 @@ for subdir, dirs, files in os.walk(root_dir):
             print(f"{old_file} is png file")
         elif files[0] != "index.md":
             print(f"Renaming {old_file} -> {new_file}")
-            #os.rename(old_file, new_file)
+            os.rename(old_file, new_file)
     else:
         #print(f"Skipping {subdir} - contains {len(files)} files")
         pass

@@ -338,12 +338,6 @@ resilience4j:
 
 -   **Caching / CDN** — combine with ETags and conditional requests for mobile.
 
-ChatGPT:
-
-Fill out the following chapters for the API Design Pattern "Bulk API". Provide a sample code in Java: Pattern Name and Classification, Intent, Also Known As, Motivation (Forces), Applicability, Structure, Participants, Collaboration, Consequences, Implementation, Sample Code, Known Uses, Related Patterns
-
-You:
-
 # Bulk API — Design Pattern
 
 ## Pattern Name and Classification

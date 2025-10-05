@@ -1,0 +1,1630 @@
+{
+  "domains": [
+    {
+      "slug": "event-driven-architecture-patterns",
+      "name": "Event Driven Architecture Patterns",
+      "patterns": [
+        {
+          "slug": "reliable-publisher-subscriber",
+          "name": "Reliable Publisher-Subscriber"
+        },
+        {
+          "slug": "transactional-outbox",
+          "name": "Transactional Outbox"
+        },
+        {
+          "slug": "event-replay-pattern",
+          "name": "Event Replay Pattern"
+        },
+        {
+          "slug": "orchestration-saga-pattern",
+          "name": "Orchestration Saga Pattern"
+        },
+        {
+          "slug": "domain-event-pattern",
+          "name": "Domain Event Pattern"
+        },
+        {
+          "slug": "dead-letter-queue-pattern",
+          "name": "Dead Letter Queue Pattern"
+        },
+        {
+          "slug": "competing-consumers",
+          "name": "Competing Consumers"
+        },
+        {
+          "slug": "event-carried-state-transfer",
+          "name": "Event Carried State Transfer"
+        },
+        {
+          "slug": "change-data-capture",
+          "name": "Change Data Capture"
+        },
+        {
+          "slug": "event-gateway-pattern",
+          "name": "Event Gateway Pattern"
+        },
+        {
+          "slug": "event-retry-pattern",
+          "name": "Event Retry Pattern"
+        },
+        {
+          "slug": "event-enrichment-pattern",
+          "name": "Event Enrichment Pattern"
+        },
+        {
+          "slug": "event-sourcing",
+          "name": "Event Sourcing"
+        },
+        {
+          "slug": "event-router-pattern",
+          "name": "Event Router Pattern"
+        },
+        {
+          "slug": "choreography-saga-pattern",
+          "name": "Choreography Saga Pattern"
+        },
+        {
+          "slug": "event-mesh",
+          "name": "Event Mesh"
+        }
+      ]
+    },
+    {
+      "slug": "enterprise-integration-patterns",
+      "name": "Enterprise Integration Patterns",
+      "patterns": [
+        {
+          "slug": "publish-subscribe-channel",
+          "name": "Publish-Subscribe Channel"
+        },
+        {
+          "slug": "command-message",
+          "name": "Command Message"
+        },
+        {
+          "slug": "message-broker",
+          "name": "Message Broker"
+        },
+        {
+          "slug": "message-bus",
+          "name": "Message Bus"
+        },
+        {
+          "slug": "transactional-outbox",
+          "name": "Transactional Outbox"
+        },
+        {
+          "slug": "event-message",
+          "name": "Event Message"
+        },
+        {
+          "slug": "resequencer",
+          "name": "Resequencer"
+        },
+        {
+          "slug": "idempotent-receiver",
+          "name": "Idempotent Receiver"
+        },
+        {
+          "slug": "circuit-breaker",
+          "name": "Circuit Breaker"
+        },
+        {
+          "slug": "aggregator",
+          "name": "Aggregator"
+        },
+        {
+          "slug": "message-translator",
+          "name": "Message Translator"
+        },
+        {
+          "slug": "splitter",
+          "name": "Splitter"
+        },
+        {
+          "slug": "scatter-gather",
+          "name": "Scatter-Gather"
+        },
+        {
+          "slug": "saga-pattern",
+          "name": "Saga Pattern"
+        },
+        {
+          "slug": "request-reply",
+          "name": "Request-Reply"
+        },
+        {
+          "slug": "competing-consumers",
+          "name": "Competing Consumers"
+        },
+        {
+          "slug": "service-activator",
+          "name": "Service Activator"
+        },
+        {
+          "slug": "change-data-capture",
+          "name": "Change Data Capture"
+        },
+        {
+          "slug": "content-enricher",
+          "name": "Content Enricher"
+        },
+        {
+          "slug": "message-endpoint",
+          "name": "Message Endpoint"
+        },
+        {
+          "slug": "message-channel",
+          "name": "Message Channel"
+        },
+        {
+          "slug": "message-router",
+          "name": "Message Router"
+        },
+        {
+          "slug": "message-filter",
+          "name": "Message Filter"
+        },
+        {
+          "slug": "dead-letter-channel",
+          "name": "Dead Letter Channel"
+        },
+        {
+          "slug": "message-store",
+          "name": "Message Store"
+        },
+        {
+          "slug": "gateway",
+          "name": "Gateway"
+        }
+      ]
+    },
+    {
+      "slug": "refactoring-patterns",
+      "name": "Refactoring Patterns",
+      "patterns": [
+        {
+          "slug": "replace-temp-with-query",
+          "name": "Replace Temp with Query"
+        },
+        {
+          "slug": "replace-magic-number-with-constant",
+          "name": "Replace Magic Number with Constant"
+        },
+        {
+          "slug": "replace-conditional-with-polymorphism",
+          "name": "Replace Conditional with Polymorphism"
+        },
+        {
+          "slug": "split-variable",
+          "name": "Split Variable"
+        },
+        {
+          "slug": "extract-class",
+          "name": "Extract Class"
+        },
+        {
+          "slug": "move-field",
+          "name": "Move Field"
+        },
+        {
+          "slug": "move-method",
+          "name": "Move Method"
+        },
+        {
+          "slug": "replace-delegation-with-inheritance",
+          "name": "Replace Delegation with Inheritance"
+        },
+        {
+          "slug": "inline-method",
+          "name": "Inline Method"
+        },
+        {
+          "slug": "consolidate-duplicate-code",
+          "name": "Consolidate Duplicate Code"
+        },
+        {
+          "slug": "extract-method",
+          "name": "Extract Method"
+        },
+        {
+          "slug": "decompose-conditional",
+          "name": "Decompose Conditional"
+        },
+        {
+          "slug": "simplify-nested-conditional",
+          "name": "Simplify Nested Conditional"
+        },
+        {
+          "slug": "replace-inheritance-with-delegation",
+          "name": "Replace Inheritance with Delegation"
+        },
+        {
+          "slug": "encapsulate-field",
+          "name": "Encapsulate Field"
+        },
+        {
+          "slug": "introduce-parameter-object",
+          "name": "Introduce Parameter Object"
+        },
+        {
+          "slug": "extract-interface",
+          "name": "Extract Interface"
+        }
+      ]
+    },
+    {
+      "slug": "data-management-database-patterns",
+      "name": "Data Management & Database Patterns",
+      "patterns": [
+        {
+          "slug": "sharding-pattern",
+          "name": "Sharding Pattern"
+        },
+        {
+          "slug": "cqrs",
+          "name": "CQRS"
+        },
+        {
+          "slug": "time-travel-table-pattern",
+          "name": "Time Travel Table Pattern"
+        },
+        {
+          "slug": "materialized-view-pattern",
+          "name": "Materialized View Pattern"
+        },
+        {
+          "slug": "index-partitioning-pattern",
+          "name": "Index Partitioning Pattern"
+        },
+        {
+          "slug": "transactional-outbox",
+          "name": "Transactional Outbox"
+        },
+        {
+          "slug": "polyglot-persistence-pattern",
+          "name": "Polyglot Persistence Pattern"
+        },
+        {
+          "slug": "snapshot-pattern",
+          "name": "Snapshot Pattern"
+        },
+        {
+          "slug": "distributed-transactions",
+          "name": "Distributed Transactions"
+        },
+        {
+          "slug": "saga-pattern",
+          "name": "Saga Pattern"
+        },
+        {
+          "slug": "change-data-capture",
+          "name": "Change Data Capture"
+        },
+        {
+          "slug": "table-partitioning",
+          "name": "Table Partitioning"
+        },
+        {
+          "slug": "shared-database-anti-pattern",
+          "name": "Shared Database Anti-Pattern"
+        },
+        {
+          "slug": "read-replica-pattern",
+          "name": "Read Replica Pattern"
+        },
+        {
+          "slug": "write-ahead-logging",
+          "name": "Write Ahead Logging"
+        },
+        {
+          "slug": "event-sourcing",
+          "name": "Event Sourcing"
+        },
+        {
+          "slug": "data-lake-pattern",
+          "name": "Data Lake Pattern"
+        },
+        {
+          "slug": "database-per-service",
+          "name": "Database per Service"
+        },
+        {
+          "slug": "data-warehouse-star-schema",
+          "name": "Data Warehouse Star Schema"
+        },
+        {
+          "slug": "soft-delete-pattern",
+          "name": "Soft Delete Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "ui-ux-patterns",
+      "name": "UI/UX Patterns",
+      "patterns": [
+        {
+          "slug": "infinite-scroll",
+          "name": "Infinite Scroll"
+        },
+        {
+          "slug": "flux-pattern",
+          "name": "Flux Pattern"
+        },
+        {
+          "slug": "observer-pattern",
+          "name": "Observer Pattern"
+        },
+        {
+          "slug": "client-side-composition",
+          "name": "Client-Side Composition"
+        },
+        {
+          "slug": "template-view",
+          "name": "Template View"
+        },
+        {
+          "slug": "error-feedback-pattern",
+          "name": "Error Feedback Pattern"
+        },
+        {
+          "slug": "mvp",
+          "name": "MVP"
+        },
+        {
+          "slug": "mvc",
+          "name": "MVC"
+        },
+        {
+          "slug": "presentation-abstraction-control",
+          "name": "Presentation-Abstraction-Control"
+        },
+        {
+          "slug": "skeleton-screen",
+          "name": "Skeleton Screen"
+        },
+        {
+          "slug": "redux-pattern",
+          "name": "Redux Pattern"
+        },
+        {
+          "slug": "lazy-loading",
+          "name": "Lazy Loading"
+        },
+        {
+          "slug": "dark-mode-toggle",
+          "name": "Dark Mode Toggle"
+        },
+        {
+          "slug": "command-pattern",
+          "name": "Command Pattern"
+        },
+        {
+          "slug": "front-controller",
+          "name": "Front Controller"
+        },
+        {
+          "slug": "responsive-design-pattern",
+          "name": "Responsive Design Pattern"
+        },
+        {
+          "slug": "page-controller",
+          "name": "Page Controller"
+        },
+        {
+          "slug": "mvvm",
+          "name": "MVVM"
+        }
+      ]
+    },
+    {
+      "slug": "design-patterns-gof",
+      "name": "Design Patterns (GoF)",
+      "patterns": [
+        {
+          "slug": "interpreter",
+          "name": "Interpreter"
+        },
+        {
+          "slug": "proxy",
+          "name": "Proxy"
+        },
+        {
+          "slug": "decorator",
+          "name": "Decorator"
+        },
+        {
+          "slug": "factory-method",
+          "name": "Factory Method"
+        },
+        {
+          "slug": "bridge",
+          "name": "Bridge"
+        },
+        {
+          "slug": "facade",
+          "name": "Facade"
+        },
+        {
+          "slug": "observer",
+          "name": "Observer"
+        },
+        {
+          "slug": "memento",
+          "name": "Memento"
+        },
+        {
+          "slug": "adapter",
+          "name": "Adapter"
+        },
+        {
+          "slug": "prototype",
+          "name": "Prototype"
+        },
+        {
+          "slug": "state",
+          "name": "State"
+        },
+        {
+          "slug": "composite",
+          "name": "Composite"
+        },
+        {
+          "slug": "iterator",
+          "name": "Iterator"
+        },
+        {
+          "slug": "template-method",
+          "name": "Template Method"
+        },
+        {
+          "slug": "visitor",
+          "name": "Visitor"
+        },
+        {
+          "slug": "singleton",
+          "name": "Singleton"
+        },
+        {
+          "slug": "abstract-factory",
+          "name": "Abstract Factory"
+        },
+        {
+          "slug": "command",
+          "name": "Command"
+        },
+        {
+          "slug": "chain-of-responsibility",
+          "name": "Chain of Responsibility"
+        },
+        {
+          "slug": "flyweight",
+          "name": "Flyweight"
+        },
+        {
+          "slug": "builder",
+          "name": "Builder"
+        },
+        {
+          "slug": "mediator",
+          "name": "Mediator"
+        },
+        {
+          "slug": "strategy",
+          "name": "Strategy"
+        }
+      ]
+    },
+    {
+      "slug": "resilience-fault-tolerance-patterns",
+      "name": "Resilience & Fault Tolerance Patterns",
+      "patterns": [
+        {
+          "slug": "fail-fast-pattern",
+          "name": "Fail Fast Pattern"
+        },
+        {
+          "slug": "dead-letter-queue",
+          "name": "Dead Letter Queue"
+        },
+        {
+          "slug": "graceful-degradation",
+          "name": "Graceful Degradation"
+        },
+        {
+          "slug": "shadow-request-pattern",
+          "name": "Shadow Request Pattern"
+        },
+        {
+          "slug": "idempotent-receiver",
+          "name": "Idempotent Receiver"
+        },
+        {
+          "slug": "circuit-breaker",
+          "name": "Circuit Breaker"
+        },
+        {
+          "slug": "health-check-pattern",
+          "name": "Health Check Pattern"
+        },
+        {
+          "slug": "bulkhead-pattern",
+          "name": "Bulkhead Pattern"
+        },
+        {
+          "slug": "heartbeat-pattern",
+          "name": "Heartbeat Pattern"
+        },
+        {
+          "slug": "retry-with-exponential-backoff",
+          "name": "Retry with Exponential Backoff"
+        },
+        {
+          "slug": "watchdog-timer-pattern",
+          "name": "Watchdog Timer Pattern"
+        },
+        {
+          "slug": "throttling-pattern",
+          "name": "Throttling Pattern"
+        },
+        {
+          "slug": "timeout-pattern",
+          "name": "Timeout Pattern"
+        },
+        {
+          "slug": "leader-election",
+          "name": "Leader Election"
+        },
+        {
+          "slug": "fallback-pattern",
+          "name": "Fallback Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "cloud-distributed-systems-patterns",
+      "name": "Cloud & Distributed Systems Patterns",
+      "patterns": [
+        {
+          "slug": "gossip-protocol",
+          "name": "Gossip Protocol"
+        },
+        {
+          "slug": "eventual-consistency",
+          "name": "Eventual Consistency"
+        },
+        {
+          "slug": "database-sharding",
+          "name": "Database Sharding"
+        },
+        {
+          "slug": "idempotency-key-pattern",
+          "name": "Idempotency Key Pattern"
+        },
+        {
+          "slug": "cache-aside",
+          "name": "Cache Aside"
+        },
+        {
+          "slug": "retry-with-backoff",
+          "name": "Retry with Backoff"
+        },
+        {
+          "slug": "circuit-breaker",
+          "name": "Circuit Breaker"
+        },
+        {
+          "slug": "read-through-cache",
+          "name": "Read Through Cache"
+        },
+        {
+          "slug": "write-behind-cache",
+          "name": "Write Behind Cache"
+        },
+        {
+          "slug": "replication-pattern",
+          "name": "Replication Pattern"
+        },
+        {
+          "slug": "ambassador",
+          "name": "Ambassador"
+        },
+        {
+          "slug": "bulkhead-pattern",
+          "name": "Bulkhead Pattern"
+        },
+        {
+          "slug": "distributed-lock-pattern",
+          "name": "Distributed Lock Pattern"
+        },
+        {
+          "slug": "sharding",
+          "name": "Sharding"
+        },
+        {
+          "slug": "saga-pattern",
+          "name": "Saga Pattern"
+        },
+        {
+          "slug": "service-discovery",
+          "name": "Service Discovery"
+        },
+        {
+          "slug": "sidecar",
+          "name": "Sidecar"
+        },
+        {
+          "slug": "cap-theorem-tradeoffs",
+          "name": "CAP Theorem Tradeoffs"
+        },
+        {
+          "slug": "multi-region-deployment",
+          "name": "Multi Region Deployment"
+        },
+        {
+          "slug": "throttling-rate-limiting",
+          "name": "Throttling Rate Limiting"
+        },
+        {
+          "slug": "leader-election",
+          "name": "Leader Election"
+        },
+        {
+          "slug": "partitioning",
+          "name": "Partitioning"
+        },
+        {
+          "slug": "write-through-cache",
+          "name": "Write Through Cache"
+        },
+        {
+          "slug": "load-balancer-pattern",
+          "name": "Load Balancer Pattern"
+        },
+        {
+          "slug": "queue-based-load-leveling",
+          "name": "Queue Based Load Leveling"
+        }
+      ]
+    },
+    {
+      "slug": "api-design-patterns",
+      "name": "API Design Patterns",
+      "patterns": [
+        {
+          "slug": "backend-for-frontend",
+          "name": "Backend For Frontend"
+        },
+        {
+          "slug": "idempotency-key-pattern",
+          "name": "Idempotency Key Pattern"
+        },
+        {
+          "slug": "graphql-pattern",
+          "name": "GraphQL Pattern"
+        },
+        {
+          "slug": "api-composition-pattern",
+          "name": "API Composition Pattern"
+        },
+        {
+          "slug": "api-gateway-pattern",
+          "name": "API Gateway Pattern"
+        },
+        {
+          "slug": "request-validation-pattern",
+          "name": "Request Validation Pattern"
+        },
+        {
+          "slug": "api-orchestration-pattern",
+          "name": "API Orchestration Pattern"
+        },
+        {
+          "slug": "versioning-pattern",
+          "name": "Versioning Pattern"
+        },
+        {
+          "slug": "circuit-breaker-pattern",
+          "name": "Circuit Breaker Pattern"
+        },
+        {
+          "slug": "pagination-pattern",
+          "name": "Pagination Pattern"
+        },
+        {
+          "slug": "grpc-pattern",
+          "name": "gRPC Pattern"
+        },
+        {
+          "slug": "hypermedia-pattern",
+          "name": "Hypermedia Pattern"
+        },
+        {
+          "slug": "consumer-driven-contracts",
+          "name": "Consumer Driven Contracts"
+        },
+        {
+          "slug": "restful-api-pattern",
+          "name": "RESTful API Pattern"
+        },
+        {
+          "slug": "bulk-api-pattern",
+          "name": "Bulk API Pattern"
+        },
+        {
+          "slug": "rate-limiting",
+          "name": "Rate Limiting"
+        },
+        {
+          "slug": "hateoas",
+          "name": "HATEOAS"
+        },
+        {
+          "slug": "token-authentication-pattern",
+          "name": "Token Authentication Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "concurrency-parallelism-patterns",
+      "name": "Concurrency & Parallelism Patterns",
+      "patterns": [
+        {
+          "slug": "active-object-pattern",
+          "name": "Active Object Pattern"
+        },
+        {
+          "slug": "actor-model",
+          "name": "Actor Model"
+        },
+        {
+          "slug": "work-stealing-pattern",
+          "name": "Work Stealing Pattern"
+        },
+        {
+          "slug": "reactor-pattern",
+          "name": "Reactor Pattern"
+        },
+        {
+          "slug": "leader-follower-pattern",
+          "name": "Leader Follower Pattern"
+        },
+        {
+          "slug": "future-promise-pattern",
+          "name": "Future Promise Pattern"
+        },
+        {
+          "slug": "fork-join-pattern",
+          "name": "Fork Join Pattern"
+        },
+        {
+          "slug": "read-write-lock-pattern",
+          "name": "Read Write Lock Pattern"
+        },
+        {
+          "slug": "double-checked-locking-pattern",
+          "name": "Double Checked Locking Pattern"
+        },
+        {
+          "slug": "barrier-synchronization-pattern",
+          "name": "Barrier Synchronization Pattern"
+        },
+        {
+          "slug": "producer-consumer-pattern",
+          "name": "Producer Consumer Pattern"
+        },
+        {
+          "slug": "immutability-pattern",
+          "name": "Immutability Pattern"
+        },
+        {
+          "slug": "thread-pool-pattern",
+          "name": "Thread Pool Pattern"
+        },
+        {
+          "slug": "mapreduce",
+          "name": "MapReduce"
+        },
+        {
+          "slug": "scheduler-pattern",
+          "name": "Scheduler Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "anti-patterns",
+      "name": "Anti-Patterns",
+      "patterns": [
+        {
+          "slug": "golden-hammer",
+          "name": "Golden Hammer"
+        },
+        {
+          "slug": "tight-coupling",
+          "name": "Tight Coupling"
+        },
+        {
+          "slug": "silver-bullet-thinking",
+          "name": "Silver Bullet Thinking"
+        },
+        {
+          "slug": "big-ball-of-mud",
+          "name": "Big Ball of Mud"
+        },
+        {
+          "slug": "god-object",
+          "name": "God Object"
+        },
+        {
+          "slug": "dependency-hell",
+          "name": "Dependency Hell"
+        },
+        {
+          "slug": "boat-anchor",
+          "name": "Boat Anchor"
+        },
+        {
+          "slug": "vendor-lock-in",
+          "name": "Vendor Lock In"
+        },
+        {
+          "slug": "lava-flow",
+          "name": "Lava Flow"
+        },
+        {
+          "slug": "architecture-by-committee",
+          "name": "Architecture By Committee"
+        },
+        {
+          "slug": "shared-database-microservices",
+          "name": "Shared Database Microservices"
+        },
+        {
+          "slug": "copy-paste-programming",
+          "name": "Copy Paste Programming"
+        },
+        {
+          "slug": "reinventing-the-wheel",
+          "name": "Reinventing the Wheel"
+        },
+        {
+          "slug": "circular-dependency",
+          "name": "Circular Dependency"
+        },
+        {
+          "slug": "spaghetti-code",
+          "name": "Spaghetti Code"
+        },
+        {
+          "slug": "hard-coded-secrets",
+          "name": "Hard Coded Secrets"
+        }
+      ]
+    },
+    {
+      "slug": "microservices-patterns",
+      "name": "Microservices Patterns",
+      "patterns": [
+        {
+          "slug": "backend-for-frontend",
+          "name": "Backend for Frontend"
+        },
+        {
+          "slug": "cqrs",
+          "name": "CQRS"
+        },
+        {
+          "slug": "dead-letter-queue",
+          "name": "Dead Letter Queue"
+        },
+        {
+          "slug": "transactional-outbox",
+          "name": "Transactional Outbox"
+        },
+        {
+          "slug": "api-gateway",
+          "name": "API Gateway"
+        },
+        {
+          "slug": "ambassador-pattern",
+          "name": "Ambassador Pattern"
+        },
+        {
+          "slug": "circuit-breaker",
+          "name": "Circuit Breaker"
+        },
+        {
+          "slug": "sidecar-pattern",
+          "name": "Sidecar Pattern"
+        },
+        {
+          "slug": "compensating-transaction",
+          "name": "Compensating Transaction"
+        },
+        {
+          "slug": "bounded-context-mapping",
+          "name": "Bounded Context Mapping"
+        },
+        {
+          "slug": "bulkhead",
+          "name": "Bulkhead"
+        },
+        {
+          "slug": "saga-pattern",
+          "name": "Saga Pattern"
+        },
+        {
+          "slug": "blue-green-deployment",
+          "name": "Blue Green Deployment"
+        },
+        {
+          "slug": "strangler-fig-pattern",
+          "name": "Strangler Fig Pattern"
+        },
+        {
+          "slug": "externalized-configuration",
+          "name": "Externalized Configuration"
+        },
+        {
+          "slug": "change-data-capture",
+          "name": "Change Data Capture"
+        },
+        {
+          "slug": "service-registry",
+          "name": "Service Registry"
+        },
+        {
+          "slug": "shared-database-anti-pattern",
+          "name": "Shared Database Anti Pattern"
+        },
+        {
+          "slug": "chained-microservice-calls",
+          "name": "Chained Microservice Calls"
+        },
+        {
+          "slug": "distributed-tracing-pattern",
+          "name": "Distributed Tracing Pattern"
+        },
+        {
+          "slug": "canary-deployment",
+          "name": "Canary Deployment"
+        },
+        {
+          "slug": "retry-pattern",
+          "name": "Retry Pattern"
+        },
+        {
+          "slug": "event-sourcing",
+          "name": "Event Sourcing"
+        },
+        {
+          "slug": "consumer-driven-contracts",
+          "name": "Consumer Driven Contracts"
+        },
+        {
+          "slug": "service-mesh",
+          "name": "Service Mesh"
+        },
+        {
+          "slug": "polyglot-persistence",
+          "name": "Polyglot Persistence"
+        },
+        {
+          "slug": "service-per-team",
+          "name": "Service Per Team"
+        },
+        {
+          "slug": "database-per-service",
+          "name": "Database Per Service"
+        }
+      ]
+    },
+    {
+      "slug": "testing-patterns",
+      "name": "Testing Patterns",
+      "patterns": [
+        {
+          "slug": "test-pyramid-pattern",
+          "name": "Test Pyramid Pattern"
+        },
+        {
+          "slug": "test-containers-pattern",
+          "name": "Test Containers Pattern"
+        },
+        {
+          "slug": "smoke-testing-pattern",
+          "name": "Smoke Testing Pattern"
+        },
+        {
+          "slug": "data-driven-test-pattern",
+          "name": "Data Driven Test Pattern"
+        },
+        {
+          "slug": "ab-testing",
+          "name": "AB Testing"
+        },
+        {
+          "slug": "end-to-end-test-pattern",
+          "name": "End To End Test Pattern"
+        },
+        {
+          "slug": "regression-testing-pattern",
+          "name": "Regression Testing Pattern"
+        },
+        {
+          "slug": "mutation-testing-pattern",
+          "name": "Mutation Testing Pattern"
+        },
+        {
+          "slug": "fake-object-pattern",
+          "name": "Fake Object Pattern"
+        },
+        {
+          "slug": "given-when-then-pattern",
+          "name": "Given When Then Pattern"
+        },
+        {
+          "slug": "mocking-pattern",
+          "name": "Mocking Pattern"
+        },
+        {
+          "slug": "stub-pattern",
+          "name": "Stub Pattern"
+        },
+        {
+          "slug": "snapshot-testing-pattern",
+          "name": "Snapshot Testing Pattern"
+        },
+        {
+          "slug": "golden-master-pattern",
+          "name": "Golden Master Pattern"
+        },
+        {
+          "slug": "integration-test-pattern",
+          "name": "Integration Test Pattern"
+        },
+        {
+          "slug": "contract-testing-pattern",
+          "name": "Contract Testing Pattern"
+        },
+        {
+          "slug": "canary-testing-pattern",
+          "name": "Canary Testing Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "organizational-team-patterns",
+      "name": "Organizational & Team Patterns",
+      "patterns": [
+        {
+          "slug": "complicated-subsystem-team",
+          "name": "Complicated Subsystem Team"
+        },
+        {
+          "slug": "feature-team-pattern",
+          "name": "Feature Team Pattern"
+        },
+        {
+          "slug": "inverse-conway-maneuver",
+          "name": "Inverse Conway Maneuver"
+        },
+        {
+          "slug": "stream-aligned-team",
+          "name": "Stream Aligned Team"
+        },
+        {
+          "slug": "platform-team",
+          "name": "Platform Team"
+        },
+        {
+          "slug": "guilds-and-chapters",
+          "name": "Guilds and Chapters"
+        },
+        {
+          "slug": "agile-squad-pattern",
+          "name": "Agile Squad Pattern"
+        },
+        {
+          "slug": "devops-team-collaboration",
+          "name": "DevOps Team Collaboration"
+        },
+        {
+          "slug": "conways-law",
+          "name": "Conways Law"
+        },
+        {
+          "slug": "enabling-team",
+          "name": "Enabling Team"
+        },
+        {
+          "slug": "communities-of-practice",
+          "name": "Communities of Practice"
+        },
+        {
+          "slug": "cross-functional-team-pattern",
+          "name": "Cross Functional Team Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "devops-deployment-patterns",
+      "name": "DevOps & Deployment Patterns",
+      "patterns": [
+        {
+          "slug": "infrastructure-as-code",
+          "name": "Infrastructure as Code"
+        },
+        {
+          "slug": "shadow-deployment",
+          "name": "Shadow Deployment"
+        },
+        {
+          "slug": "service-mesh-deployment",
+          "name": "Service Mesh Deployment"
+        },
+        {
+          "slug": "ab-testing-pattern",
+          "name": "A/B Testing Pattern"
+        },
+        {
+          "slug": "blue-green-deployment",
+          "name": "Blue Green Deployment"
+        },
+        {
+          "slug": "dark-launch",
+          "name": "Dark Launch"
+        },
+        {
+          "slug": "canary-release",
+          "name": "Canary Release"
+        },
+        {
+          "slug": "immutable-infrastructure",
+          "name": "Immutable Infrastructure"
+        },
+        {
+          "slug": "rolling-updates",
+          "name": "Rolling Updates"
+        },
+        {
+          "slug": "gitops",
+          "name": "GitOps"
+        },
+        {
+          "slug": "ci-cd",
+          "name": "CI/CD"
+        },
+        {
+          "slug": "sidecar-deployment",
+          "name": "Sidecar Deployment"
+        },
+        {
+          "slug": "feature-toggle-pattern",
+          "name": "Feature Toggle Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "behavioral-process-patterns",
+      "name": "Behavioral & Process Patterns",
+      "patterns": [
+        {
+          "slug": "observer-pattern",
+          "name": "Observer Pattern"
+        },
+        {
+          "slug": "finite-state-machine-pattern",
+          "name": "Finite State Machine Pattern"
+        },
+        {
+          "slug": "specification-pattern",
+          "name": "Specification Pattern"
+        },
+        {
+          "slug": "strategy-pattern",
+          "name": "Strategy Pattern"
+        },
+        {
+          "slug": "workflow-engine-pattern",
+          "name": "Workflow Engine Pattern"
+        },
+        {
+          "slug": "process-manager-pattern",
+          "name": "Process Manager Pattern"
+        },
+        {
+          "slug": "state-pattern",
+          "name": "State Pattern"
+        },
+        {
+          "slug": "mediator-pattern",
+          "name": "Mediator Pattern"
+        },
+        {
+          "slug": "event-storming",
+          "name": "Event Storming"
+        },
+        {
+          "slug": "saga-pattern",
+          "name": "Saga Pattern"
+        },
+        {
+          "slug": "template-method",
+          "name": "Template Method"
+        },
+        {
+          "slug": "command-pattern",
+          "name": "Command Pattern"
+        },
+        {
+          "slug": "chain-of-responsibility",
+          "name": "Chain of Responsibility"
+        },
+        {
+          "slug": "visitor-pattern",
+          "name": "Visitor Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "software-architecture-patterns",
+      "name": "Software Architecture Patterns",
+      "patterns": [
+        {
+          "slug": "cqrs",
+          "name": "CQRS"
+        },
+        {
+          "slug": "pipe-and-filter",
+          "name": "Pipe and Filter"
+        },
+        {
+          "slug": "blackboard-architecture",
+          "name": "Blackboard Architecture"
+        },
+        {
+          "slug": "space-based-architecture",
+          "name": "Space Based Architecture"
+        },
+        {
+          "slug": "service-oriented-architecture",
+          "name": "Service Oriented Architecture"
+        },
+        {
+          "slug": "microkernel-architecture",
+          "name": "Microkernel Architecture"
+        },
+        {
+          "slug": "hexagonal-architecture",
+          "name": "Hexagonal Architecture"
+        },
+        {
+          "slug": "client-server-architecture",
+          "name": "Client Server Architecture"
+        },
+        {
+          "slug": "broker-architecture",
+          "name": "Broker Architecture"
+        },
+        {
+          "slug": "event-driven-architecture",
+          "name": "Event Driven Architecture"
+        },
+        {
+          "slug": "master-slave-architecture",
+          "name": "Master Slave Architecture"
+        },
+        {
+          "slug": "modular-architecture",
+          "name": "Modular Architecture"
+        },
+        {
+          "slug": "self-contained-systems",
+          "name": "Self Contained Systems"
+        },
+        {
+          "slug": "layered-architecture",
+          "name": "Layered Architecture"
+        },
+        {
+          "slug": "onion-architecture",
+          "name": "Onion Architecture"
+        },
+        {
+          "slug": "clean-architecture",
+          "name": "Clean Architecture"
+        },
+        {
+          "slug": "shared-nothing-architecture",
+          "name": "Shared Nothing Architecture"
+        },
+        {
+          "slug": "monolithic-architecture",
+          "name": "Monolithic Architecture"
+        }
+      ]
+    },
+    {
+      "slug": "security-patterns",
+      "name": "Security Patterns",
+      "patterns": [
+        {
+          "slug": "tamper-detection-pattern",
+          "name": "Tamper Detection Pattern"
+        },
+        {
+          "slug": "secure-audit-trail",
+          "name": "Secure Audit Trail"
+        },
+        {
+          "slug": "authentication-pattern",
+          "name": "Authentication Pattern"
+        },
+        {
+          "slug": "principle-of-least-privilege",
+          "name": "Principle of Least Privilege"
+        },
+        {
+          "slug": "api-key-management",
+          "name": "API Key Management"
+        },
+        {
+          "slug": "token-based-authentication",
+          "name": "Token Based Authentication"
+        },
+        {
+          "slug": "authorization-pattern",
+          "name": "Authorization Pattern"
+        },
+        {
+          "slug": "circuit-breaker-security",
+          "name": "Circuit Breaker Security"
+        },
+        {
+          "slug": "secure-session-management",
+          "name": "Secure Session Management"
+        },
+        {
+          "slug": "secrets-management",
+          "name": "Secrets Management"
+        },
+        {
+          "slug": "data-masking-pattern",
+          "name": "Data Masking Pattern"
+        },
+        {
+          "slug": "zero-trust-architecture",
+          "name": "Zero Trust Architecture"
+        },
+        {
+          "slug": "input-validation-sanitization",
+          "name": "Input Validation Sanitization"
+        },
+        {
+          "slug": "encryption-at-rest-in-transit",
+          "name": "Encryption at Rest in Transit"
+        },
+        {
+          "slug": "secure-logger-pattern",
+          "name": "Secure Logger Pattern"
+        },
+        {
+          "slug": "refresh-token-pattern",
+          "name": "Refresh Token Pattern"
+        }
+      ]
+    },
+    {
+      "slug": "domain-driven-design-patterns",
+      "name": "Domain-Driven Design Patterns",
+      "patterns": [
+        {
+          "slug": "cqrs",
+          "name": "CQRS"
+        },
+        {
+          "slug": "domain-event",
+          "name": "Domain Event"
+        },
+        {
+          "slug": "repository",
+          "name": "Repository"
+        },
+        {
+          "slug": "entity",
+          "name": "Entity"
+        },
+        {
+          "slug": "aggregate",
+          "name": "Aggregate"
+        },
+        {
+          "slug": "bounded-context",
+          "name": "Bounded Context"
+        },
+        {
+          "slug": "anti-corruption-layer",
+          "name": "Anti Corruption Layer"
+        },
+        {
+          "slug": "value-object",
+          "name": "Value Object"
+        },
+        {
+          "slug": "published-language",
+          "name": "Published Language"
+        },
+        {
+          "slug": "context-map",
+          "name": "Context Map"
+        },
+        {
+          "slug": "shared-kernel",
+          "name": "Shared Kernel"
+        },
+        {
+          "slug": "open-host-service",
+          "name": "Open Host Service"
+        },
+        {
+          "slug": "aggregate-root",
+          "name": "Aggregate Root"
+        },
+        {
+          "slug": "domain-service",
+          "name": "Domain Service"
+        },
+        {
+          "slug": "event-sourcing",
+          "name": "Event Sourcing"
+        },
+        {
+          "slug": "application-service",
+          "name": "Application Service"
+        },
+        {
+          "slug": "customer-supplier-relationship",
+          "name": "Customer Supplier Relationship"
+        },
+        {
+          "slug": "factory",
+          "name": "Factory"
+        },
+        {
+          "slug": "conformist",
+          "name": "Conformist"
+        },
+        {
+          "slug": "separate-ways",
+          "name": "Separate Ways"
+        }
+      ]
+    },
+    {
+      "slug": "scalability-patterns",
+      "name": "Scalability Patterns",
+      "patterns": [
+        {
+          "slug": "sharding-pattern",
+          "name": "Sharding Pattern"
+        },
+        {
+          "slug": "partitioning-pattern",
+          "name": "Partitioning Pattern"
+        },
+        {
+          "slug": "cqrs",
+          "name": "CQRS"
+        },
+        {
+          "slug": "cache-aside",
+          "name": "Cache Aside"
+        },
+        {
+          "slug": "database-replication",
+          "name": "Database Replication"
+        },
+        {
+          "slug": "materialized-views-pattern",
+          "name": "Materialized Views Pattern"
+        },
+        {
+          "slug": "read-through-cache",
+          "name": "Read Through Cache"
+        },
+        {
+          "slug": "write-behind-cache",
+          "name": "Write Behind Cache"
+        },
+        {
+          "slug": "distributed-cache",
+          "name": "Distributed Cache"
+        },
+        {
+          "slug": "vertical-scaling",
+          "name": "Vertical Scaling"
+        },
+        {
+          "slug": "auto-scaling-group-pattern",
+          "name": "Auto Scaling Group Pattern"
+        },
+        {
+          "slug": "multi-region-deployment",
+          "name": "Multi Region Deployment"
+        },
+        {
+          "slug": "write-through-cache",
+          "name": "Write Through Cache"
+        },
+        {
+          "slug": "load-balancer-pattern",
+          "name": "Load Balancer Pattern"
+        },
+        {
+          "slug": "horizontal-scaling",
+          "name": "Horizontal Scaling"
+        },
+        {
+          "slug": "queue-based-load-leveling",
+          "name": "Queue Based Load Leveling"
+        }
+      ]
+    },
+    {
+      "slug": "mobile-app-architecture-patterns",
+      "name": "Mobile App Architecture Patterns",
+      "patterns": [
+        {
+          "slug": "clean-architecture-mobile",
+          "name": "Clean Architecture Mobile"
+        },
+        {
+          "slug": "dependency-injection-pattern",
+          "name": "Dependency Injection Pattern"
+        },
+        {
+          "slug": "redux-mobile",
+          "name": "Redux Mobile"
+        },
+        {
+          "slug": "mvvm-mobile",
+          "name": "MVVM Mobile"
+        },
+        {
+          "slug": "mvc-mobile",
+          "name": "MVC Mobile"
+        },
+        {
+          "slug": "repository-pattern",
+          "name": "Repository Pattern"
+        },
+        {
+          "slug": "offline-first-sync",
+          "name": "Offline First Sync"
+        },
+        {
+          "slug": "mvp-mobile",
+          "name": "MVP Mobile"
+        },
+        {
+          "slug": "coordinator-pattern",
+          "name": "Coordinator Pattern"
+        },
+        {
+          "slug": "event-bus-mobile",
+          "name": "Event Bus Mobile"
+        },
+        {
+          "slug": "viper",
+          "name": "VIPER"
+        },
+        {
+          "slug": "singleton-pattern",
+          "name": "Singleton Pattern"
+        }
+      ]
+    }
+  ]
+}

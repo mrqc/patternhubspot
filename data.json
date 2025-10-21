@@ -1,6 +1,96 @@
 {
   "domains": [
     {
+      "slug": "agentic-design-patterns",
+      "name": "Agentic Design Patterns",
+      "patterns": [
+        { 
+          "slug": "prompt-chaining", 
+          "name": "Prompt Chaining"
+        },
+        { 
+          "slug": "routing", 
+          "name": "Routing"
+        },
+        { 
+          "slug": "parallelization", 
+          "name": "Parallelization"
+        },
+        {
+          "slug": "reflection", 
+          "name": "Reflection"
+        },
+        { 
+          "slug": "tool-use", 
+          "name": "Tool Use"
+        },
+        { 
+          "slug": "planning", 
+          "name": "Planning"
+        },
+        { 
+          "slug": "multi-agent", 
+          "name": "Multi-Agent"
+        },
+        { 
+          "slug": "memory-management", 
+          "name": "Memory Management"
+        },
+        { 
+          "slug": "learning-and-adaptation", 
+          "name": "Learning and Adaptation"
+        },
+        { 
+          "slug": "model-context-protocol", 
+          "name": "Model Context Protocol (MCP)"
+        },
+        { 
+          "slug": "goal-setting-and-monitoring", 
+          "name": "Goal Setting and Monitoring"
+        },
+        { 
+          "slug": "exception-handling-and-recovery", 
+          "name": "Exception Handling and Recovery"
+        },
+        { 
+          "slug": "human-in-the-loop", 
+          "name": "Human-in-the-Loop"
+        },
+        { 
+          "slug": "knowledge-retrieval", 
+          "name": "Knowledge Retrieval (RAG)"
+        },
+        { 
+          "slug": "inter-agent-communication", 
+          "name": "Inter-Agent Communication (A2A)"
+        },
+        { 
+          "slug": "resource-aware-optimization", 
+          "name": "Resource-Aware Optimization"
+        },
+        { 
+          "slug": "reasoning-techniques", 
+          "name": "Reasoning Techniques"
+        },
+        { 
+          "slug": "guardrails-safety-patterns", 
+          "name": "Guardrails/Safety Patterns"
+        },
+        { 
+          "slug": "evaluation-and-monitoring", 
+          "name": "Evaluation and Monitoring"
+        },
+        { 
+          "slug": "prioritization", 
+          "name": "Prioritization"
+        },
+        { 
+          "slug": "exploration-and-discovery", 
+          "name": "Exploration and Discovery"
+        }
+      ]
+    },
+    {
       "slug": "event-driven-architecture-patterns",
       "name": "Event Driven Architecture Patterns",
       "patterns": [
